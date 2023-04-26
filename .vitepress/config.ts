@@ -28,7 +28,8 @@ export default defineConfig({
                     { text: 'Markdown Examples', link: '/zh/markdown-examples' },
                     { text: 'OpenAI',
                         items: [
-                            { text: 'GPT-3', link: '/zh/openai/gpt3' },
+                            { text: '文档', link: '/zh/openai/introduction' },
+                            { text: 'API参考', link: '/zh/openai/api-reference' },
                         ]
                     },
                 ],
@@ -43,7 +44,7 @@ export default defineConfig({
                     }
                 ],
                 socialLinks: [
-                    { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+                    { icon: 'github', link: 'https://github.com/yjrguxing' }
                 ]
             },
         },
@@ -60,7 +61,8 @@ export default defineConfig({
                     { text: 'Markdown Examples', link: '/en/markdown-examples' },
                     { text: 'OpenAI',
                         items: [
-                            { text: 'GPT-3', link: '/en/openai/gpt3' },
+                            { text: 'Documentation', link: '/en/openai/introduction' },
+                            { text: 'API reference', link: '/en/openai/api-reference' },
                         ]
                     },
                 ],
