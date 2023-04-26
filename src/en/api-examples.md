@@ -1,5 +1,8 @@
 ---
 outline: deep
+lastUpdated: true
+aside: left
+editLink: true
 ---
 
 # Runtime API Examples

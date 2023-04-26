@@ -5,16 +5,16 @@ layout: home
 title: "首页"
 
 hero:
-  name: "文档&API汇总站"
-  text: "各类文档&API汇总"
+  name: "可达鸭的知识库"
+  text: "文档&API"
   tagline: 给你有中文对照的技术&API文档
   actions:
     - theme: brand
       text: Markdown Examples
-      link: /markdown-examples
+      link: /zh/markdown-examples
     - theme: alt
       text: API Examples
-      link: /api-examples
+      link: /zh/api-examples
 
 features:
   - title: Feature A
