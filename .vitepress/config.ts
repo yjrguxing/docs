@@ -28,8 +28,8 @@ export default defineConfig({
                     { text: 'Markdown Examples', link: '/zh/markdown-examples' },
                     { text: 'OpenAI',
                         items: [
-                            { text: '文档', link: '/zh/openai/introduction' },
-                            { text: 'API参考', link: '/zh/openai/api-reference' },
+                            { text: '文档', link: '/zh/openai/documentation/introduction' },
+                            { text: 'API参考', link: '/zh/openai/api-reference/introduction' },
                         ]
                     },
                 ],
@@ -40,6 +40,13 @@ export default defineConfig({
                         items: [
                             { text: 'Markdown Examples', link: '/zh/markdown-examples' },
                             { text: 'Runtime API Examples', link: '/zh/api-examples' }
+                        ]
+                    },
+                    {
+                        text: 'OpenAI',
+                        items: [
+                            { text: '文档', link: '/zh/openai/documentation/introduction' },
+                            { text: 'API参考', link: '/zh/openai/api-reference/introduction' },
                         ]
                     }
                 ],
@@ -61,8 +68,8 @@ export default defineConfig({
                     { text: 'Markdown Examples', link: '/en/markdown-examples' },
                     { text: 'OpenAI',
                         items: [
-                            { text: 'Documentation', link: '/en/openai/introduction' },
-                            { text: 'API reference', link: '/en/openai/api-reference' },
+                            { text: 'Documentation', link: '/en/openai/documentation/introduction' },
+                            { text: 'API reference', link: '/en/openai/api-reference/introduction' },
                         ]
                     },
                 ],
@@ -73,6 +80,29 @@ export default defineConfig({
                         items: [
                             { text: 'Markdown Examples', link: '/en/markdown-examples' },
                             { text: 'Runtime API Examples', link: '/en/api-examples' }
+                        ]
+                    },
+                    {
+                        text: 'OpenAI',
+                        items: [
+                            {
+                                text: 'Documentation',
+                                items: [
+                                    {
+                                        text: 'GET STARTED',
+                                        items: [
+                                            { text: 'introduction', link: '/en/openai/documentation/introduction' },
+                                        ],
+                                        collapsed : true,
+                                    },
+                                ],
+                                collapsed: true
+                            },
+                            {
+                                text: 'API reference',
+                                items: [
+                                ]
+                            }
                         ]
                     }
                 ],

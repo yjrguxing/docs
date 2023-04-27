@@ -7,7 +7,7 @@ title: "首页"
 hero:
   name: "可达鸭的知识库"
   text: "文档&API"
-  tagline: 给你有中文对照的技术&API文档
+  tagline: 给你有中文对照的资料
   actions:
     - theme: brand
       text: Markdown Examples
